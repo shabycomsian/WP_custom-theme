@@ -1,0 +1,36 @@
+[16-Oct-2019 21:01:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/travelto/public_html/wp/wp-content/themes/smartrecroot/blogs.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/travelto/public_html/wp/wp-content/themes/smartrecroot/blogs.php on line 6
+[16-Oct-2019 21:03:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/travelto/public_html/wp/wp-content/themes/smartrecroot/blog_ebook.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/travelto/public_html/wp/wp-content/themes/smartrecroot/blog_ebook.php on line 6
+[16-Oct-2019 21:05:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/travelto/public_html/wp/wp-content/themes/smartrecroot/blog_ebook.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/travelto/public_html/wp/wp-content/themes/smartrecroot/blog_ebook.php on line 6
+[16-Oct-2019 21:06:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/travelto/public_html/wp/wp-content/themes/smartrecroot/blogs.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/travelto/public_html/wp/wp-content/themes/smartrecroot/blogs.php on line 6
+[16-Oct-2019 21:06:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/travelto/public_html/wp/wp-content/themes/smartrecroot/blogs.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/travelto/public_html/wp/wp-content/themes/smartrecroot/blogs.php on line 6
+[16-Oct-2019 21:07:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/travelto/public_html/wp/wp-content/themes/smartrecroot/blog_ebook.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/travelto/public_html/wp/wp-content/themes/smartrecroot/blog_ebook.php on line 6
+[16-Oct-2019 21:12:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/travelto/public_html/wp/wp-content/themes/smartrecroot/blogs.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/travelto/public_html/wp/wp-content/themes/smartrecroot/blogs.php on line 6
+[17-Oct-2019 05:54:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/travelto/public_html/wp/wp-content/themes/smartrecroot/blogs.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/travelto/public_html/wp/wp-content/themes/smartrecroot/blogs.php on line 6
+[17-Oct-2019 05:55:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/travelto/public_html/wp/wp-content/themes/smartrecroot/blogs.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/travelto/public_html/wp/wp-content/themes/smartrecroot/blogs.php on line 6

@@ -1,0 +1,347 @@
+@charset "UTF-8";
+/*
+Theme Name: Smart Recroot
+Theme URI: https://wordpress.org/themes/twentynineteen/
+Author: shoaib
+Author URI: https://wordpress.org/
+Description: Our 2019 default theme is designed to show off the power of the block editor. It features custom styles for all the default blocks, and is built so that what you see in the editor looks like what you'll see on your website. Twenty Nineteen is designed to be adaptable to a wide range of websites, whether you’re running a photo blog, launching a new business, or supporting a non-profit. Featuring ample whitespace and modern sans-serif headlines paired with classic serif body text, it's built to be beautiful on all screen sizes.
+Requires at least: WordPress 4.9.6
+Version: 1.4
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: twentynineteen
+Tags: one-column, flexible-header, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, rtl-language-support, sticky-post, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Twenty Nineteen is based on Underscores https://underscores.me/, (C) 2012-2018 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+.copyright .textwidget p {
+    margin: 0;
+}
+button.btn.btn-primary.mb-2 a {
+    color: #ffffff;
+    text-decoration: none;
+}
+button.btn.btn-success.mb-2 a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.nav-link {
+    display: flex;
+    padding: .5rem 1rem;
+}
+.nav-pills .nav-link {
+    background: #fff;
+    color: #383838;
+    box-shadow: 0px 0 15px 1px #7575754d;
+    border-radius: 7px;
+    margin-bottom: 15px;
+    font-family: "CerebriSans Light";
+    padding: 10px 10px;
+    display: inline-block !important;
+}
+button.searchbot {
+    position: absolute;
+    background-color: #ffffff00;
+    border: none;
+}
+
+#panel12 {
+  display: none;
+}
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.5em;
+}
+span.ima img {
+    width: 130px;
+}
+h2.bb {
+    display: none;
+}
+li#menu-item-238 {
+    margin-right: 10px;
+}
+nav.navbar.navbar-expand-lg.navbar-dark img {
+    width: 220px;
+}
+.bbb {
+    display: none;
+}
+span.page-numbers.current {
+    padding: 12px 16px;
+    border-radius: 5px;
+    background-color: #ff1a4f;
+    color: #ffffff;
+}
+a.page-numbers {
+    padding: 12px 16px;
+    border-radius: 5px;
+    color: #ffffff;
+    border: none;
+}
+.blog_content .categories a:active {
+    font-family: "CerebriSans Book";
+    color: #929191;
+}
+#panel122 {
+    display: none;
+}
+#panel123 {
+    display: none;
+}
+span.cont p {
+    margin: 0;
+}
+a.current {
+    color: #ff1a4f;
+}
+li.nav-item.is-checked a {
+    color: #ff3a4f;
+}
+span.meta-nav {
+    font-size: 62px;
+        margin: 0 auto;
+}
+.col-lg-10.secondpag img {
+    width: 120px;
+    margin-right: 20px;
+}
+.col-lg-10.secondpag1 {
+    background-color: #fff;
+    border: 2px solid #f6eded;
+    border-radius: 5px;
+}
+form.wpcf7-form p {
+    display: inline-flex;
+}
+.screen-reader-response {
+    display: none;
+}
+img.img-fluid.ind_sector.wp-post-image {
+    width: 400px;
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 40px;
+}
+.industry_selector_details {
+    padding: 40px 0px;
+}
+.previous {
+    position: absolute;
+    top: 29px;
+    right: 0;
+}
+.nexxt {
+    position: absolute;
+    top: 30px;
+}
+.col-lg-6.text-center.onepag img {
+    width: 120px;
+    margin-right: 20px;
+    float:left;
+}
+.col-lg-5.secondpag img {
+    width: 120px;
+    float: left !important;
+    height: 100px;
+    background: white;
+    padding: 10px;
+    border-radius: 9px 0px 0px 9px;
+	box-shadow: -3px 0 5px -3px #bbb;
+}
+a.nextt {
+    float: right;
+    position: absolute;
+    right: -65px;
+    top: 43px;
+}
+.bg123 {
+    background-color: #ffffff;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #eae9e9;
+}
+a.previous {
+    position: absolute;
+    left: -54px;
+    top: 43px;
+}
+span.featurtitle {
+    color: #ff1a4f;
+    font-family: "CerebriSans Bold";
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background: white;
+    padding: 10px;
+    border-radius: 0px 9px 9px 0px;
+    box-shadow: 6px 2px 10px -8px #969696;
+}
+/* Slider */
+
+.slick-slide {
+    margin: 0px 40px;
+}
+
+.slick-slide img {
+    width: 100%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    margin:0 auto;
+}
+.slick-slide img:hover {
+    width: 100%;
+    filter: none;
+    -webkit-filter: none;
+      margin:0 auto;
+}
+
+.slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+.card-body.text-center.blog_ebook_card_body h5 {
+    text-align: left;
+}
+button.btn.btn-danger.mb-2 a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.pagi_nation.py-5 {
+    margin: 0 auto;
+}
+.clearfix {
+  overflow: auto;
+}
+div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
+    border: 1px solid #ff0000 !important;
+}
+span.wpcf7-not-valid-tip {
+    color: #f00;
+    font-size: 1em;
+    font-weight: normal;
+    display: block;
+    padding-left: 12px;
+}
+
+.card.partner {
+    min-height: 150px;
+    padding: 10px 10px;
+}
+.partners {
+    padding: 40px 0;
+}
+
+
+

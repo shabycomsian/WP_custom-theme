@@ -1,0 +1,1777 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Fonts */
+@font-face {
+  font-family: "CerebriSans Light";
+  src: url("../fonts/CerebriSans-Light.ttf");
+}
+@font-face {
+  font-family: "CerebriSans Medium";
+  src: url("../fonts/CerebriSans-Medium.ttf");
+}
+@font-face {
+  font-family: "CerebriSans Medium Italic";
+  src: url("../fonts/CerebriSans-MediumItalic.ttf");
+}
+@font-face {
+  font-family: "CerebriSans Regular";
+  src: url("../fonts/CerebriSans-Regular.ttf");
+}
+@font-face {
+  font-family: "CerebriSans Semibold";
+  src: url("../fonts/CerebriSans-SemiBold.ttf");
+}
+@font-face {
+  font-family: "CerebriSans Bold";
+  src: url("../fonts/CerebriSans-Bold.ttf");
+}
+@font-face {
+  font-family: "CerebriSans Extra Bold";
+  src: url("../fonts/CerebriSans-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "CerebriSans Bold Itlic";
+  src: url("../fonts/CerebriSans-BoldItalic.ttf");
+}
+@font-face {
+  font-family: "CerebriSans Book";
+  src: url("../fonts/CerebriSans-Book.ttf");
+}
+
+/* CSS */
+
+body {
+  color: #3d3d3d;
+  background: #fcfafa;
+}
+.card-body table td {
+    color: #333333;
+    padding: 5px 10px 5px 10px;
+}
+.container p img.aligncenter {
+    margin: 0 auto;
+    display: block;
+}
+.container{
+    overflow:hidden;
+}
+header .container{
+    overflow:inherit;
+}
+.brand-rating .container {
+    overflow: inherit;
+}
+.talent_attrection {
+    margin: 20px 70px;
+}
+button.lodemore {
+	color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    display: inline-block;
+    font-weight: 400;
+    vertical-align: middle;
+    height: 36px;
+    border-radius: .25rem;
+    width: 110px;
+    box-shadow: none;
+    border: none;
+}
+button.lodemore:hover{
+	color: #fff;
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #3d3d3d;
+}
+h2 {
+  font-family: "CerebriSans Bold";
+  font-size: 34px;
+}
+#wpcf7-f347-o1 + p {
+    position: absolute;
+    margin-left: 18px;
+}
+span.arrow-up-slide, span.arrow-up-slide {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+div#v-pills-tab {
+    height: 434px;
+    overflow: hidden;
+    padding: 0px 10px;
+    padding-top: 5px;
+}
+div#v-pills-tab a {
+    box-shadow: 0px 0 6px 2px #7575754d;
+}
+.grid .element-item {
+    position: inherit !important;
+    left: inherit !important;
+    right: inherit !important;
+    top: inherit !important;
+    display: inline-grid;
+    width: 33%;
+    margin-bottom: 15px !important;
+}
+.blog_cards .grid {
+    height: 100% !important;
+    position: inherit !important;
+}
+span.arrow-up-slide i, span.arrow-up-slide i{
+	cursor:pointer;
+	color: #ff1a4f;
+    opacity: 0.8;
+}
+span.arrow-up-slide i:hover, span.arrow-up-slide i:hover{
+	cursor:pointer;
+	 opacity: 1;
+}
+#primary-menu .btn a {
+   padding: 7.9px 10px 5px 10px;
+    margin: 0;
+    font-family: "CerebriSans medium";
+    color: #fff;
+    font-size: 15px;
+    min-width: 75px;
+    text-align: center !important;
+    justify-content: center;
+}
+#primary-menu .btn.login a {
+    color: #212529;
+}
+#primary-menu .btn {
+    padding: 0;
+}
+#primary-menu .btn-success:hover {
+    background: #54b910;
+    border-color: #54b910;
+}
+#primary-menu .btn-danger:hover {
+    background: #d0303f;
+    border-color: #d0303f;
+}
+.email input {
+   border: 2px solid #ede2e2;
+    background: #fff;
+    color: #333333;
+    border-radius: 5px;
+    padding: 12px;
+    font-family: "CerebriSans Book";
+    width: 300px;
+    margin-top: 22px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+span.bott input {
+    margin-top: 25px;
+    font-size: 16px;
+    font-family: "CerebriSans Semibold";
+    padding: 10px 20px;
+    background-color: #58c111;
+    border: 2px solid #58c111;
+    font-family: "CerebriSans Semibold";
+    min-width: 165px;
+    color: #fff;
+}
+.image-section {
+    display: flex;
+}
+.image-section img {
+    border-radius: 100px;
+    width: 42px;
+    height: 42px;
+}
+.image-section h6 {
+    text-transform: capitalize;
+}
+.user-detail-section {
+    display: flex;
+}
+.user-detail-section img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+}
+.media-body p {
+    margin-bottom: 0px;
+}
+.onepag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.secondpag2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.secondpag2 a:hover{
+	text-decoration:none;
+	opacity:0.8;
+}
+.onepag a:hover {
+    opacity: 0.8;
+    text-decoration: none;
+}
+.banner {
+  height: 750px;
+    background: url(../images/bg-banner.png) no-repeat top center;
+    background-size: cover;
+    position: relative;
+}
+.banner.inner-pages {
+    background: url(../images/bg-banner-inner.png) no-repeat top center;
+    height: 450px;
+    background-size: cover;
+    position: relative;
+}
+/*.banner.inner-pages.trail-page {
+    background: url(../images/bg-banner-inner.png) no-repeat;
+    height: 315px;
+    background-size: cover;
+    position: relative;
+    background-position: 0px -143px;
+}*/
+.inner-pages .banner-content {
+    padding-top: 190px;
+}
+/*.banner.inner-pages.trail-page .banner-content {
+    padding-top: 150px;
+}*/
+.trail-page + .contact_us .card {
+    min-height: inherit;
+    padding: 15px 0px;
+}
+.trail-page + .contact_us .clients {
+    margin-top: 20px;
+}
+.inner-pages .banner-content span.second {
+    margin: 10px 0px 10px 0px;
+}
+
+
+.navbar .dropdown:hover>.dropdown-menu {
+    display: block;
+    border-radius: 4px;
+    padding: 5px 0px;
+    margin-top: -10px;
+    margin-left: 8px;
+}
+.navbar .dropdown-item {
+    display: block;
+    width: 100%;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    text-decoration: none;
+    background-color: transparent;
+    padding: 8px 15px 8px 15px;
+    font-size: 15px;
+    font-family: "CerebriSans book";
+    border-bottom: 1px solid #f7f3f3;
+}
+.navbar .dropdown-item:focus, .dropdown-item:hover {
+    color: #ff1a4f;
+    text-decoration: none;
+   background-color: #f7f3f3;
+    font-size: 15px;
+    font-family: "CerebriSans book";
+}
+.navbar .dropdown-item:last-child{
+	border-bottom:none;
+	padding-bottom:5px;
+}
+.navbar .dropdown-item.active, .dropdown-item:active {
+   color: #ff1a4f;
+    text-decoration: none;
+    background-color: #f7f3f3;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+header {
+  z-index: 1;
+  position: relative;
+  width: 100%;
+}
+header .navbar {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 27px;
+}
+header .navbar-nav {
+  font-family: "CerebriSans Medium";
+}
+header .navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+  margin-right: 14px;
+}
+#primary-menu .nav-link.dropdown-toggle {
+    display: flex;
+    align-items: center;
+}
+.logo-text {
+  font-size: 30px;
+  font-family: "CerebriSans Medium";
+}
+.btn-success {
+  background-color: #58c111;
+  border: 2px solid #58c111;
+  font-family: "CerebriSans Semibold";
+}
+.btn-success:hover {
+    color: #fff;
+    background: #54b910;
+    border-color: #54b910;
+}
+.btn-primary {
+  background-color: #2463ed;
+  border: 2px solid #2463ed;
+  font-family: "CerebriSans Semibold";
+}
+.btn-light {
+	border: 2px solid #ffffff;
+  font-family: "CerebriSans Semibold";
+}
+.banner-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 100px;
+  padding-bottom: 250px;
+}
+.content-wrapper {
+  height: 100%;
+  text-align: center;
+}
+.content-table {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+.content-cell {
+  display: table-cell;
+  height: 100%;
+  width: 100%;
+  vertical-align: middle;
+}
+.banner-text span {
+  display: block;
+  color: #fff;
+  font-family: "CerebriSans Medium";
+}
+.banner-text span.first {
+  font-size: 20px;
+}
+.banner-text h2 {
+    display: block;
+    color: #fff;
+    font-family: "CerebriSans Medium";
+    font-size: 20px;
+    margin: 0;
+}
+.banner-text h2.third {
+  font-size: 22px;
+}
+.banner-text span.second {
+  font-family: "CerebriSans Extra Bold";
+  font-size: 40px;
+}
+.banner-text h1.second {
+    font-family: "CerebriSans Extra Bold";
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.banner-buttons {
+  margin-top: 25px;
+}
+.banner-buttons .toggle-btn:first-child {
+	border-right: 0px;
+	border-left: 2px solid #58c111;
+	border-radius: 4px 0px 0px 4px;
+}
+.banner-buttons .toggle-btn:first-child:hover {
+	border-left: 2px solid #58c111;
+}
+.banner-buttons .toggle-btn.active {
+	background-color: #58c111 !important;
+	border-radius: 4px 0px 0px 4px;
+	margin-right: -6px;
+	color: #fff;
+	border-left: 2px solid #58c111
+}
+.banner-buttons .toggle-btn:hover {
+	background: transparent;
+	box-sizing: border-box;
+	padding: 10px 15px;
+	font-size: 18px;
+	color: #fff;
+}
+.banner-buttons .toggle-btn.active:last-child {
+	border-radius: 0px 4px 4px 0px;
+	margin-left: -5px;
+}
+.banner-buttons .toggle-btn.active:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+.banner-text .btn {
+  font-family: "CerebriSans Semibold";
+  font-size: 18px;
+  margin-top: 20px;
+  display: inline-block;
+  min-width: 150px;
+  padding: 10px 15px;
+}
+
+.mac-book-display {
+  position: relative;
+  margin-top: -260px;
+  text-align: center;
+}
+.clients .client-logo .logo-wrapper {
+  position: relative;
+}
+.clients {
+    margin-top: 40px;
+    margin-bottom:40px;
+}
+.client-logo img {
+  max-width: 145px;
+filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+}
+.client-logo img:hover {
+  max-width: 145px;
+filter: none;
+-webkit-filter: none;
+}
+.client-logo {
+  text-align: center;
+}
+.feature-img {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  padding: 21px;
+  text-align: center;
+  border-radius: 50%;
+}
+.features {
+  text-align: center;
+  margin-top: 45px;
+}
+.features.red .feature-img {
+  box-shadow: 0px 0px 15px 7px #ff1a4f36;
+}
+.features.blue .feature-img {
+  box-shadow: 0px 0px 15px 7px #2463ed36;
+}
+.features.green .feature-img {
+  box-shadow: 0px 0px 15px 7px #58c11136;
+}
+.inner-pages + .feature-section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.feature-section {
+  margin-top: 15px;
+  margin-bottom: 110px;
+}
+.feature-text h2 {
+  font-family: "CerebriSans Medium";
+  font-size: 30px;
+  margin-top: 32px;
+}
+.feature-text .feature-tagline {
+  font-size: 18px;
+  font-family: "CerebriSans Medium";
+}
+.matrices {
+  background: url(../images/purchase-trial-bg.png) no-repeat top center;
+  background-size: cover;
+  text-align: center;
+  padding: 88px 0 100px 0;
+  position: relative;
+}
+.optimise {
+  background: url(../images/optimise-bg.png) no-repeat top center;
+  background-size: cover;
+  text-align: center;
+  padding: 100px 0 120px 0;
+}
+.industry {
+  background: url(../images/industry-bg.png) no-repeat top center;
+  background-size: cover;
+  padding: 95px 0 100px 0;
+}
+.optimise h2 {
+  font-size: 34px;
+  font-family: "CerebriSans Bold";
+  color: #fff;
+}
+.matrices-content h2 {
+  font-size: 34px;
+  font-family: "CerebriSans Bold";
+}
+.optimise span {
+  display: block;
+  font-size: 18px;
+  font-family: "CerebriSans Medium";
+  color: #fff;
+}
+.matrices-content span {
+  display: block;
+  font-size: 18px;
+  font-family: "CerebriSans Medium";
+}
+.matrices-buttons .btn,
+.optimise-buttons .btn {
+  margin-top: 15px;
+}
+.matrices-buttons .btn,
+.optimise-buttons .btn {
+  margin-top: 25px;
+  font-size: 16px;
+  font-family: "CerebriSans Semibold";
+  padding: 10px 20px;
+  min-width: 165px;
+}
+.matrices-buttons {
+  margin-top: 15px;
+}
+.optimise-buttons {
+  margin-top: 18px;
+}
+.specifications {
+  padding: 70px 0;
+}
+.specification-content .tagline {
+  font-size: 18px;
+  color: #ff1a4f;
+  font-family: "CerebriSans Medium";
+  display: block;
+  margin-top: 26px;
+}
+.specifications .container .row:nth-child(even) span.tagline {
+  color: #2463ed;
+}
+.specifications .container .row:last-child .specification-content {
+  margin: 0;
+}
+.specification-content h2 {
+  font-size: 34px;
+  font-family: "CerebriSans Bold";
+	margin-top: 40px;
+}
+.specification-content p {
+  font-family: "CerebriSans Light";
+}
+.specification-content a.btn {
+  font-family: "cerebriSans Semibold";
+  color: #2463ed;
+}
+.specification-content,
+specification-img {
+  margin-bottom: 68px;
+}
+footer .sub-footer {
+  background: #d90838;
+  color: #fff;
+  font-family: "CerebriSans Regular";
+  padding: 29px 0 25px 0;
+}
+
+
+footer .sub-footer .terms-links ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+footer .sub-footer .terms-links ul li {
+  display: inline-block;
+}
+footer .sub-footer .terms-links ul li a {
+  color: #fff;
+  display: inline-block;
+  position: relative;
+  margin-right: 30px;
+}
+footer .sub-footer .terms-links ul li a:after {
+  position: absolute;
+  content: "|";
+  right: -20px;
+}
+footer .sub-footer .terms-links ul li:last-child a:after {
+  display: none;
+}
+footer .sub-footer .terms-links ul li:last-child a {
+  margin: 0;
+}
+.terms-links {
+  text-align: right;
+}
+footer {
+  background: #ff1a4f;
+  padding-top: 83px;
+}
+.footer-links {
+  color: #fff;
+  margin-bottom: 60px;
+}
+.footer-links h4 {
+  color: #fff;
+  font-size: 22px;
+  font-family: "CerebriSans Medium";
+}
+.footer-links ul {
+  margin: 0;
+  padding: 0;
+}
+.footer-links ul li {
+  list-style-type: none;
+  padding-top: 10px;
+}
+.footer-links ul li a {
+  color: #fff;
+  font-family: "CerebriSans Regular";
+}
+.footer-links.contact p {
+  margin-top: 30px;
+  font-family: "CerebriSans Light";
+}
+.footer-links.contact .btn {
+  font-family: "CerebriSans Bold";
+}
+.footer-links.contact ul {
+  text-align: right;
+}
+.footer-links.contact ul li {
+  display: inline-block;
+  margin-left: 5px;
+}
+.footer-links.contact ul li:first-child {
+  margin-left: 0px;
+}
+.footer-links.contact ul li .fa {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 2px;
+}
+.footer-links.contact ul li .fa.fa-facebook {
+  background-color: #3b5998;
+}
+.footer-links.contact ul li .fa.fa-twitter {
+  background-color: #1da1f2;
+}
+.footer-links.contact ul li .fa.fa-youtube {
+  background-color: #ff0000;
+}
+.footer-links.contact ul li .fa.fa-linkedin {
+  background-color: #0077b5;
+}
+.marketing-video p {
+  font-size: 18px;
+  font-family: "CerebriSans Regular";
+  margin-bottom: 30px;
+}
+.embed-responsive.custom {
+  border: 8px solid #e5cece;
+  border-radius: 15px;
+}
+.marketing-video {
+  padding-bottom: 82px;
+  padding-top: 87px;
+}
+.indutry-text {
+  margin-top: 20px;
+    margin-bottom: 20px;
+}
+.indutry-text span {
+  display: block;
+  font-family: "CerebriSans Bold";
+  font-size: 18px;
+}
+/*.indutry-img {
+    position: relative;
+    top: -20px;
+}*/
+.indutry-text h2 {
+  margin-bottom: 20px;
+}
+li#menu-item-96 a {
+    background-color: #58c111;
+    border: 0px solid #58c111;
+    font-family: "CerebriSans Semibold";
+    border-radius: 0.2em;
+}
+.testimonial {
+      padding: 30px 0 50px 0;
+    font-family: "CerebriSans Light";
+}
+.testimonial h2 {
+    margin-bottom: 30px;
+}
+.testimonial-wrapper {
+  position: relative;
+  padding: 62px 20px 20px 20px;
+  box-shadow: 0px 0 15px 1px #7575754d;
+  border-radius: 5px;
+}
+.testimonial-wrapper .user-img img {
+    border-radius: 100px;
+}
+.user-img {
+  position: absolute;
+  left: 50%;
+  margin-left: -52.5px;
+  top: -52.5px;
+}
+.carousel-outer .item {
+  padding: 55px 15px 15px 15px;
+}
+.user-info {
+  margin-bottom: 15px;
+}
+.user-info span {
+  line-height: 1.2;
+  display: block;
+}
+.user-info span.username {
+  font-family: "CerebriSans Medium Italic";
+  font-size: 18px;
+  color: #3d3d3d;
+}
+.user-info span.user-designation {
+ 	font-family: "CerebriSans Medium";
+    font-size: 16px;
+    color: #ff1a4f;
+    margin-top: 15px;
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #ff1a4f;
+  border: 1px solid #ff1a4f;
+}
+.owl-theme .owl-dots .owl-dot span {
+  width: 12px;
+  height: 12px;
+  margin: 5px 7px;
+  background: #f6eded;
+  display: block;
+  -webkit-backface-visibility: visible;
+  transition: opacity 200ms ease;
+  border-radius: 30px;
+  border: 1px solid #e5cece;
+}
+button.owl-next,
+button.owl-prev {
+  height: 58px;
+  width: 58px;
+  background: #ff1a4f !important;
+  border-radius: 50% !important;
+  position: absolute;
+  outline: none;
+}
+button.owl-next {
+  right: -100px;
+}
+button.owl-prev {
+  left: -100px;
+}
+button.owl-next span,
+button.owl-prev span {
+  display: none;
+}
+button.owl-next:before {
+  content: "\f178";
+  font-family: fontawesome;
+  color: #fff;
+  text-align: center;
+}
+button.owl-prev:before {
+  content: "\f177";
+  font-family: fontawesome;
+  color: #fff;
+  text-align: center;
+}
+.owl-theme .owl-nav {
+  position: absolute;
+  top: 50%;
+  margin-top: -29px;
+  width: 100%;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #ff1a4f;
+}
+.nav-pills .nav-link.active span,
+.nav-pills .show > .nav-link span {
+  color: #fff;
+}
+.nav-pills .nav-link {
+  background: #fff;
+  color: #383838;
+  box-shadow: 0px 0 15px 1px #7575754d;
+  border-radius: 7px;
+  margin-bottom: 15px;
+  font-family: "CerebriSans Light";
+  padding: 10px 10px;
+}
+.nav-pills .nav-link span {
+  margin-bottom: 10px;
+  font-family: "CerebriSans Medium";
+  display: block;
+  font-size: 20px;
+  color: #ff1a4f;
+}
+.product {
+  padding: 55px 0 108px 0;
+}
+.p-head {
+  font-size: 18px;
+  font-family: "CerebriSans Regular";
+}
+.testimonial-wrapper p:last-child {
+  margin-bottom: 0;
+}
+.optimise-buttons .btn {
+  min-width: 250px;
+  padding: 12px 20px;
+  font-size: 20px;
+}
+.matrices:after {
+  content: "";
+  background: url(../images/stripe-b.png) repeat-x bottom center;
+  position: absolute;
+  height: 55px;
+  width: 100%;
+  left: 0;
+  bottom: 0px;
+  background-size: 100%;
+}
+.matrices.marge-with-footer {
+   margin-bottom: -50px;
+}
+.matrices.marge-with-footer + footer {
+    padding-top: 140px;
+}
+.matrices.marge-with-footer:after{
+	content: "";
+	display:none;
+}
+/* .banner:after {
+  content: "";
+  background: url(../images/stripe-c.png) repeat-x bottom center;
+  position: absolute;
+  height: 55px;
+  width: 100%;
+  left: 0;
+  bottom: -1px;
+  background-size: 100%;
+} */
+.industry {
+  position: relative;
+}
+.industry:after {
+  content: "";
+  background: url(../images/stripe-a.png) repeat-x bottom center;
+  position: absolute;
+  height: 55px;
+  width: 100%;
+  left: 0;
+  bottom: -1px;
+  background-size: 100%;
+}
+.optimise {
+  position: relative;
+}
+.optimise:after {
+  content: "";
+  background: url(../images/stripe-b.png) repeat-x bottom center;
+  position: absolute;
+  height: 55px;
+  width: 100%;
+  left: 0;
+  bottom: -1px;
+  background-size: 100%;
+}
+@media (min-width: 240px) and (max-width: 767px) {
+    .filters-button-group button {
+        margin: 0px;
+        padding: 3px 15px;
+    }
+    .email input {
+        padding: 8px 12px;
+        width: 300px;
+        margin-top: 14px;
+    }
+    .management .row {
+            display: block;
+            width: 100%;
+            margin: 0;
+        }
+     
+      .inner-pages .banner-content {
+        padding-top: 50px;
+    }
+	#primary-menu .btn {
+		padding: 0;
+		margin-top: 10px;
+		margin-right: 0px;
+	}
+  h2 {
+    font-size: 28px !important;
+  }
+  .owl-nav {
+    display: none;
+  }
+  .banner-text h1.second {
+    font-size: 30px;
+  }
+  .banner-text h2.third {
+    font-size: 18px !important;
+    margin-top: 20px;
+  }
+  .banner-text h2.first {
+    font-size: 16px !important;
+    margin-bottom: 20px;
+  }
+  .banner {
+    height: 100vh;
+    min-height: 500px;
+  }
+	.banner.inner-pages.trail-page{
+		 min-height: 450px;
+	}
+	/*.banner.inner-pages.trail-page .banner-content {
+		padding-top: 0px;
+		margin-top: -30px;
+	}*/
+	.book_a_demo_cards .card {
+    margin: 0px 15px;
+}
+  .mac-book-display {
+    margin-top: 50px;
+  }
+  .banner-content {
+    padding-bottom: 0;
+  }
+  .specification-content,
+  .specifications .container .row:last-child .specification-content {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  /*.specification-img {
+    margin-bottom: 50px;
+  }*/
+  .nav-pills .nav-link {
+    text-align: center;
+  }
+  .footer-links {
+    text-align: center;
+  }
+  .sub-footer,
+  footer .sub-footer .terms-links ul {
+    text-align: center;
+    font-size: 14px;
+  }
+  .testimonial {
+    padding-top: 0;
+  }
+  .matrices-buttons .btn,
+  .optimise-buttons .btn,
+  .optimise-buttons .btn {
+    margin-top: 15px;
+    font-family: "CerebriSans Semibold";
+    font-size: 16px;
+    min-width: 120px;
+    padding: 7px 11px;
+  }
+  footer .sub-footer .terms-links ul {
+    margin-top: 30px;
+  }
+  .footer-links.contact ul {
+    text-align: center;
+  }
+  .industry {
+    text-align: center;
+  }
+  .indutry-text {
+    margin-bottom: 50px;
+  }
+  .feature-text h2 {
+    font-size: 24px !important;
+    margin-bottom: 0;
+    margin-top: 15px;
+  }
+  .feature-text .feature-tagline {
+    font-size: 16px;
+  }
+  div#navbarSupportedContent {
+    background: rgb(255, 26, 79);
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 15px;
+  }
+}
+
+/* Pricing Page style */
+.standard button a, .enterprise button a {
+    color: #fff;
+    text-decoration: none;
+}
+.freemium button a {
+    text-decoration: none;
+    color: #212529;
+}
+h2.aa {
+    margin-top: 30px;
+}
+.freemium button.btn-light {
+    border: 2px solid #d2d2d2;
+    font-family: "CerebriSans Semibold";
+}
+.btn-transparent {
+  background-color: transparent;
+  color: #fff;
+  border-top: 2px solid #58c111;
+  border-bottom: 2px solid #58c111;
+  border-right: 2px solid #58c111;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  font-family: "CerebriSans Semibold";
+  position: relative;
+  right: 3px;
+}
+.btn-transparent:hover {
+  background-color: #fff;
+  border-left: 2px solid #58c111;
+  color: #3d3d3d;
+}
+.billed-monthly-list {
+  color: #bcbbbb;
+  font-family: "CerebriSans Medium";
+}
+.billed a {
+  text-decoration: underline;
+}
+.see-all-options-free {
+  color: #959494;
+}
+.see-all-options-standrad {
+  color: #2463ed;
+	cursor:pointer;
+}
+.see-all-options-standrad:hover{
+	opacity:0.8;
+}
+.see-all-options-enterprise {
+  color: #58c111;
+	cursor:pointer;
+}
+.see-all-options-enterprise:hover{
+	opacity:0.8;
+}
+
+
+.standrad {
+    position: relative;
+}
+.standrad:before {
+    border-left: 1px solid #efecec;
+    content: "";
+    position: absolute;
+    height: calc(100% - 40px);
+    width: 1px;
+    left: -23px;
+    top: 50px;
+}
+.standrad:after {
+    border-left: 1px solid #efecec;
+    content: "";
+    position: absolute;
+    height: calc(100% - 40px);
+    right: -130px;
+    width: 100px;
+    top: 50px;
+}
+/* .standrad {
+  border-right: 1px solid #e9e9e9;
+  border-left: 1px solid #e9e9e9;
+} */
+.text-free {
+  color: #363636;
+  font-family: "CerebriSans Bold";
+}
+.text-standrad {
+  color: #2463ed;
+  font-family: "CerebriSans Bold";
+}
+.text-enterprise {
+  color: #58c111;
+  font-family: "CerebriSans Bold";
+}
+.price {
+  font-family: "CerebriSans Medium";
+}
+/*.freemium-sec-div {
+  position: absolute;
+  bottom: 0;
+  left: 28%;
+}*/
+.recruitment-metrics h1 {
+  font-family: "CerebriSans Bold";
+}
+.recruitment-metrics h6 {
+  font-family: "CerebriSans Medium";
+}
+@media (max-width: 992px) {
+    .talent_attrection .col-lg-5 {
+        margin-bottom: 15px;
+    }
+    #wpcf7-f347-o1 + p{
+        position: inherit;
+    margin: 15px;
+    }
+    .grid .element-item {
+        width: 49.5%;
+    }
+}
+@media (max-width: 978px) {
+  .freemium-sec-div {
+    position: unset;
+    left: 28%;
+  }
+}
+@media (max-width: 520px) {
+    form.wpcf7-form p {
+       display: inherit !important;
+    }
+    .email input {
+       width: calc(100% - 30px) !important;
+        margin-top: 0px;
+        font-size: 16px;
+    }
+    span.bott input {
+        margin-top: -8px !important;
+    }
+}
+@media (max-width: 480px) {
+    .talent_attrection {
+        margin: 0px 30px;
+    }
+    .talent_attrection .col-lg-5.secondpag img {
+        width: 97px !important;
+        margin-right: 22px !important;
+        display: block !important;
+        margin-bottom: 5px !important;
+        float: none !important;
+    }
+   .talent_attrection a.previous {
+        position: absolute !important;
+        right: 39px !important;
+        top: 33px !important;
+        left: auto;
+    }
+    a.nextt {
+        position: absolute !important;
+        right: 39px !important;
+        top: 33px !important;
+        float: none !important;
+    }
+}
+@media (max-width: 330px) {
+	nav.navbar.navbar-expand-lg.navbar-dark img {
+		width: 195px !important;
+	}
+}
+/* Slider */
+.standard .slider {
+ -webkit-appearance: none;
+    width: 90%;
+    height: 10px;
+    border-radius: 10px;
+    background: #e6e6e6;
+    position: relative;
+    -webkit-transition: 0.2s;
+    transition: opacity 0.2s;
+    z-index: 9999;
+	opacity: 0.8;
+}
+.standard .slider:after {
+    position: absolute;
+    background: url(https://teamplayerhr.com/wp-includes/img/pattern.png);
+    width: 100%;
+    content: "";
+    height: 30px;
+    background-repeat: no-repeat;
+    bottom: -30px;
+    z-index: -1;
+}
+.standard .slider:focus{
+	outline:none;
+}
+.standard .slider:hover {
+  opacity: 1;
+}
+
+.standard .slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #2463ed;
+  cursor: pointer;
+}
+
+.standard .slider-txt {
+  float: left;
+  color: #bcbbbb;
+}
+.standard .slider-value {
+  float: right;
+  color: #bcbbbb;
+  font-weight: bold;
+}
+.recruitment-metrics {
+  background-image: url("../images/second-bg-02.png");
+  height: 300px;
+}
+/* Pricing Page Style End */
+
+/* feature_main page */
+.specifications .container .row:nth-child(even) span.tagline {
+  color: #ff1a4f;
+}
+.instead-hr {
+    border-bottom: 1px solid #f4ebeb;
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+}
+.instead-hr:last-child {
+    border: none;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+/* end Feature main Page */
+
+/* Fetuare Details page */
+.matrices-fetuare {
+  background-color: #fff;
+  text-align: left;
+  padding: 88px 0 100px 0;
+  position: relative;
+}
+.matrices-fetuare-text {
+  font-family: "CerebriSans Book";
+}
+.matrices-fetuare:after {
+  content: "";
+  background: url(../images/stripe-c.png) repeat-x bottom center;
+  position: absolute;
+  height: 55px;
+  width: 100%;
+  left: 0;
+  bottom: 0px;
+  background-size: 100%;
+}
+.management {
+  background-color: #fcfafa;
+  border-bottom: 1px solid #f9f3f3;
+}
+.management a {
+  color: #3d3d3d;
+  font-size: 15px;
+  font-family: "CerebriSans Bold";
+  text-decoration: none;
+}
+.management a:hover {
+  color: #ff1a4f;
+}
+.talent_attrection a {
+    color: #ff1a4f;
+    font-family: "CerebriSans Bold";
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.talent_attrection a img {
+    width: 25px;
+}
+.ta-one {
+    border: 2px solid #ff1a4f;
+    border-radius: 5px;
+    font-family: "CerebriSans Bold";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+.ta-one:hover {
+    background: rgba(255, 26, 79, 0.1);
+}
+.talent_attrection .ta-one a {
+    color: #ff1a4f;
+    font-family: "CerebriSans Bold";
+    position: relative;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.ta-two {
+  background-color: #fff;
+  border: 2px solid #f6eded;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: "CerebriSans Bold";
+}
+.talent_attrection .ta-two a {
+    color: #ff1a4f;
+    font-family: "CerebriSans Bold";
+    position: absolute;
+    right: 42px;
+    top: 60px;
+}
+.ta-two .arrow-img {
+  height: 100%;
+  position: relative;
+  top: 35px;
+  left: 100px;
+}
+@media (min-width: 240px) and (max-width: 767px) {
+  .talent_attrection a {
+    position: relative;
+    top: 0px;
+  }
+    .grid .element-item {
+        width: 100%;
+    }    
+  .ta-two .arrow-img {
+    position: relative;
+    top: 35px;
+    left: 10px;
+  }
+ 	.specification-img img {
+		max-width: 100%;
+	}	
+}
+/* end Feature details page */
+
+/* Blog Page Start */
+.blog_cards .card-body {
+    font-size: 14px;
+    color: #d2d2d2;
+    font-family: "CerebriSans medium";
+}
+.blog_cards .card-body a {
+    font-size: 14px;
+    color: #008ed6;
+    font-family: "CerebriSans medium";
+    text-transform: capitalize;
+}
+.blog_cards .card-body a:hover {
+    color: #ff1a4f;
+}
+.blog_cards .card-body li:first-child {
+    margin-top: 10px;
+}
+
+.blog_cards .card-body li {
+    color: #333333;
+    margin: 5px 0px;
+}
+.blog_cards a {
+  text-decoration: none;
+}
+.blog_cards .card h5 {
+  font-family: "CerebriSans Bold";
+ 	 /*height: 27px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;	*/
+}
+.blog_cards .card .name_comments_date {
+    font-size: 14px;
+    color: #d2d2d2;
+    font-family: "CerebriSans Book";
+}
+.blog_cards .card p {
+    color: #333333;
+    font-family: "CerebriSans regular";
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: left;
+}
+.blog_cards .card p a img {
+    max-width: 100%;
+}
+.blog_content .nav-tab a {
+  font-family: "CerebriSans Bold";
+  color: #333333;
+  border-bottom: 2px solid #333333;
+}
+.blog_content .nav-tab a:hover,
+.blog_content .nav-tab a.active {
+  color: #ff1a4f;
+  border: none;
+  border-bottom: 2px solid #ff1a4f;
+}
+.blog_content .categories a {
+  font-family: "CerebriSans Book";
+  color: #929191;
+	cursor:pointer;
+}
+.blog_content .categories a:hover,
+.blog_content .categories a.active {
+  color: #ff1a4f;
+}
+.blog_content .search_blog input {
+  color: #ede2e2;
+  border-color: #ede2e2;
+  border-top: 2px solid #ede2e2;
+  border-left: 2px solid #ede2e2;
+  border-radius: 5px;
+  padding: 8px;
+}
+/* End Blog Page */
+
+/* Blog Details */
+.pagi_nation a {
+  background-color: #ebdddd;
+  border: 1px solid #ddc7c7;
+  color: #fff;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+.pagi_nation a:hover,
+.pagi_nation a.active {
+  background-color: #ff1a4f;
+  border: 1px solid #ff1a4f;
+  color: #fff;
+}
+/* .blog_content .social_media {
+  font-family: "CerebriSans";
+} */
+.blog_content a {
+  text-decoration: none;
+}
+.related_artical {
+  font-family: "CerebriSans Bold";
+  text-align: center;
+}
+
+.matrices .matrics_search {
+  border: 2px solid #ede2e2;
+  background: #fff;
+  color: #333333;
+  border-radius: 5px;
+  padding: 12px;
+  font-family: "CerebriSans Book";
+}
+.matrices_seperator {
+  border-right: 2px solid #f5e4f3;
+}
+@media (max-width: 978px) {
+  .matrices_seperator {
+    border: none;
+  }
+}
+/* End Blog Details */
+
+/* Blog Ebook Page */
+.blog_ebook_card_body li {
+    color: #333333;
+    font-family: "CerebriSans Book";
+    font-size: 15px;
+    text-align: unset;
+    list-style: none;
+    position: relative;
+}
+.blog_ebook_card_body li:before {
+    content: "";
+    position: absolute;
+    height: 8px;
+    background: #ff1a4f;
+    border-radius: 100px;
+    left: -2px;
+    top: 7px;
+    width: 8px;
+}
+.blog_ebook_card_body button {
+    background-color: #ff296e;
+    color: #fff;
+    border-radius: 4px;
+    padding: 5px 10px 6px 10px;
+    font-size: 14px;
+    font-family: "CerebriSans Semibold";
+}
+.blog_ebook_card_body button:hover {
+  opacity:0.9;
+	color: #fff;
+}
+.blog_ebook_card_body ul li {
+    margin-bottom: 5px;
+}
+
+.blog_ebook_card_body ul {
+    padding: 0px;
+}
+/* End Blog Ebook Page */
+
+/* Industry Sector Page */
+.industry_sector_card_text h6 {
+  margin-bottom: auto;
+}
+.blog_content .card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+/* End Industry Sector Page */
+
+/* Industry Sector Details Page */
+.industry_selector_details h5 {
+  font-family: "CerebriSans Bold";
+}
+.industry_selector_details p {
+  font-family: "CerebriSans Book";
+}
+
+.industry_selector_details li {
+  font-family: "CerebriSans Book";
+  list-style-image: url(../images/blog-li-2.png);
+}
+
+/* End Industry Sector Details Page */
+
+/* Contact Us Page  */
+.contact_us .icon-div {
+  background-color: #fff;
+  border: 4px solid #f2eded;
+  border-radius: 100px;
+  width: 110px;
+  height: 110px;
+  position: relative;
+  bottom: 40px;
+  left: 35%;
+}
+.icon-div .img_users {
+  position: relative;
+  top: 20px;
+  left: 16px;
+}
+.icon-div .img_email {
+  position: relative;
+  top: 30px;
+  left: 16px;
+}
+.icon-div .img_computer {
+  position: relative;
+  top: 25px;
+  left: 20px;
+}
+.contact_us .card p {
+    font-family: "CerebriSans regular";
+    font-size: 15px;
+    padding: 0px 19px;
+    text-align: center;
+}
+.contact_us {
+    padding-top: 50px;
+}
+.contact_us .phone-no {
+    font-family: "CerebriSans Extra Bold";
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+.contact_us .card {
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.1);
+    border: none;
+    min-height: 250px;
+}
+
+.contact_us .btn-contact-us {
+  font-family: "CerebriSans Bold";
+  color: #fff;
+  background-color: #2866ed;
+  margin-bottom: 10px;
+}
+.contact_us .btn-book-demo {
+  font-family: "CerebriSans Bold";
+  color: #fff;
+  background-color: #43b10c;
+  margin-bottom: 10px;
+}
+.contact-form h3 {
+    text-align: center;
+    font-family: "CerebriSans Extra Bold";
+    color: #000;
+    font-size: 31px;
+    margin: 20px 20px 70px 20px;
+    position: relative;
+}
+.contact-form h3:before {
+    content: "";
+    width: 140px;
+    height: 6px;
+    background: #2463ed;
+    position: absolute;
+    bottom: -39px;
+    text-align: center;
+    margin-left: 76px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(2em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 1px solid #d5d3d5;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn-send-message {
+  font-family: "CerebriSans Bold";
+  color: #fff;
+  background-color: #2866ed;
+}
+/* End Pag.e Contact Us */
+
+/* Start Testinonials page */
+.testimonials {
+    /*padding-top: 50px;*/
+}
+.testimonials .card {
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.1);
+    border: none;
+    min-height: 278px;
+    padding: 20px;
+}
+.testimonials .card p {
+    font-family: "CerebriSans regular";
+    font-size: 15px;
+}
+.testimonials .card h3 {
+    font-family: "CerebriSans Bold";
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-top: 7px;
+}
+.testimonials-list > p {
+    padding: 0px 140px;
+}
+.testimonials .card h6 {
+    margin-bottom: 25px;
+    font-family: "CerebriSans Bold";
+}
+.testimonials-list > h3 {
+    text-align: center;
+    font-family: "CerebriSans Extra Bold";
+    color: #000;
+    font-size: 31px;
+    margin: 20px 20px 70px 20px;
+    position: relative;
+}
+.testimonials-list > h3:before {
+    content: "";
+    width: 140px;
+    height: 6px;
+    background: #2463ed;
+    position: absolute;
+    bottom: -39px;
+    text-align: center;
+    margin-left: 76px;
+}
+.text-muted {
+    color: #b7bbbf!important;
+}
+.testimonials-list .card {
+    min-height: auto;
+}
+.testimonials-list > p {
+    color: #333333;
+    font-family: "CerebriSans medium";
+    font-size: 16px;
+}
+.testimonials-list img {
+    width: 82px;
+}
+/* Start Week Trial Page */
+.book_a_demo_li li {
+	font-family: "CerebriSans Book";
+    list-style: none;
+    text-align: unset;
+    margin-bottom: 10px;
+    position: relative;
+}
+.book_a_demo_li li:before {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: #dc3545;
+    left: -30px;
+    border-radius: 100px;
+    top: 5px;
+}
+.book_a_demo_li li:first-child {
+    margin-top: 35px;
+}
+.book_a_demo_li li:last-child {
+    margin-bottom: 35px;
+}
+.start_trial_h3 h3{
+  font-family: "CerebriSans Bold";
+}
+.start_trial_p{
+  font-family: "CerebriSans Book";
+}
+/* End BWeek Trial */
+
+/* Start book_a_demo */
+.book_a_demo_cards .card h4{
+  font-family: "CerebriSans Bold";
+}
+.book_a_demo_cards .card:hover{
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+/* End book_a_demo */
